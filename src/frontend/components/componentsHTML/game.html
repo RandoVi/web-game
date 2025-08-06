@@ -1,0 +1,30 @@
+<div id="game-container">
+
+    <div id="scoreboard">
+        <div id="scoreboard-header"> Scoreboard:</div>
+        <div id="scoreboard-players"></div>
+    </div>
+    <div id="timer">
+        <div id="timer-header"> Timer: </div>
+        <h1 id="timer-text"></h1>
+    </div>
+    <div class="square-background"></div>
+    <div id="arena-circle"></div>
+
+    <div id="pause-modal" class="modal hidden">
+        <h2>Game Paused by Host</h2>
+        <ul id="pause-options">
+            <li><button id="resume-btn" class="hidden">Resume Game</button></li>
+            <li><button id="restart-btn" class="hidden">Restart Game</button></li>
+            <li><button class="exit-btn">Quit Game</button></li>
+        </ul>
+    </div>
+
+    <div id="winscreen-modal" class="modal hidden">
+        <ul id="finish-list"></ul>
+        <div id="finish-controls">
+            <button class="rematch-btn">Rematch</button>
+            <button class="exit-btn">Exit</button>
+        </div>
+    </div>
+</div>

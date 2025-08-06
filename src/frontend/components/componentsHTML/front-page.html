@@ -1,0 +1,26 @@
+<div id="front-page-container">
+    <h1> SUMO ARENA: ULTIMATE SHOWDOWN </h1>
+
+    <form id="name-form" style="display: block">
+        <label for="name-input">Enter your name:</label>
+        <input type="text" id="name-input" name="username" placeholder="Your name here">
+        <button id="confirm-btn">✓</button>
+        <button id="cancel-btn">✕</button>
+    </form>
+    <div id="player-name-container" style="display: none">
+        <div id="player-name-display">
+            <h2 id="player-name"></h2>
+            <button id="edit-name-btn">✎</button>
+        </div>
+    </div>
+    <div id="error-modal" class="modal hidden">
+        <div class="modal-content">
+            <p class="error-message">Name is invalid (must be between 3 and 20 characters [ _ , - allowed])</p>
+            <button id="close-btn">&times;</button>
+        </div>
+    </div>
+    <button class="singleplayer-lobby-btn">Single-Player</button>
+    <button class="multiplayer-lobby-btn">Multi-Player</button>
+    <button class="settings-btn">Settings</button>
+    <button class="tutorial-btn">How To Play</button>
+</div>

@@ -1,0 +1,43 @@
+<div id="lobby-container">
+    <div class="top-section">
+        <div id="player-count"></div>
+        <button class="hidden" id="add-btn">Add Player</button>
+        <button class="back-btn">Back</button>
+    </div>
+    <div class="middle-section">
+        <div class="middle-left-section">
+            <div id="player-list">
+                <div>Players:</div>
+            </div>
+        </div>
+        <div class="middle-right-section">
+                    <div id="map-container">
+                        <div id="map-preview">
+                            <img id="arena-image" src="" alt="Arena Preview">
+                        </div>
+                        <div id="map-selector" class="disabled-container">
+                            <button class="map-selection-btn" data-arena-name="arenaDefault" data-arena-image-path="src/assets/images/arenaDefault.jpg">Default</button>
+                            <button class="map-selection-btn" data-arena-name="arena1" data-arena-image-path="src/assets/images/arena1.png">Chaos</button>
+                            <button class="map-selection-btn" data-arena-name="arena3" data-arena-image-path="src/assets/images/arena3.png">Walls</button>
+                        </div>
+                    </div>
+                    
+        </div> 
+        <div id="confirmation-modal" class="modal hidden">
+            <div class="modal-content">
+                <h2 class="confirmation-modal">Are you sure you want to leave?</h2>
+                <h2 class="confirmation-modal">This will disband the room.</h2>
+                <button id="leave-yes-button">Leave</button>
+                <button id="leave-no-button">Cancel</button>
+            </div>
+        </div>
+    </div>
+    <div class="bottom-section">
+        <div id="game-settings">
+            <div id="game-modifiers"> GAME MODIFIERS</div>
+            <div id="game-difficulty"> GAME DIFFICULTY FOR BOTS? / Maybe ADD BOT button for flexibility</div>
+        </div>
+        <button class="start-btn">Start</button>
+    </div>
+</div>
+
