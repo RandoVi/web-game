@@ -146,4 +146,4 @@ npm run server
 
 - The Single-Player has 3 difficulty levels. In level 1 the AI is not as aggressive and the ring is not as slippery. In level 3 it is the opposite.
 
-- Good Luck 😊
+- Singleplayer is currently disabled due to insufficient functionality, it breaks multiplayer(this project was a collaboration)
